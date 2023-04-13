@@ -16,3 +16,14 @@ opacity: .95;
 
 }
 
+header {
+    margin: 2% auto 10% auto;
+    text-align: center;
+}
+header h2 {
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #2d493b;
+}
+header p {letter-spacing: 0.05em;}
+
