@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+body {
+    background-image: linear-gradient(-225deg, #7c98f5 0%, #ef75f3 100%);
+background-image: linear-gradient(to top, #a8d9ed 0%, #fed6e3 100%);
+background-attachment: fixed;
+  background-repeat: no-repeat;
+
+    font-family: 'Vibur', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-family: 'Abel', sans-serif;
+opacity: .95;
+
+}
+
