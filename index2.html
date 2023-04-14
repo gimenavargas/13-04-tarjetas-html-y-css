@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>TABLAS Y FORMULARIOS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="path/to/fork-awesome/css/fork-awesome.min.css">
     
@@ -14,9 +14,9 @@
             <div class="con">
             <!--     encabezado de inicio -->
             <header class="head-form">
-               <h2>My Page</h2>
+               <h2>Sign in</h2>
                <!--     Mensaje de bienvenida con instrucciones-->
-               <p>login here using your username and password</p>
+               <p>register your data to create an account</p>
             </header>
         <br>
     <div class="field-set">
@@ -27,7 +27,15 @@
           </span>
          <!--   ingresar nomnbre de usuario-->
           <input class="form-input" id="txt-input" type="text" placeholder="Name" required>
+          <br>
+          <!-- Apellido -->
+         <span class="input-item">
+            <i class='bx bx-user-circle'></i>
+          </span>
+         <!--   Ingresa apellido-->
+          <input class="form-input" id="txt-input" type="text" placeholder="LastName" required>
         <br>
+
            <!-- CONTRASEÑA -->
      
            <span class="input-item">
@@ -35,13 +43,21 @@
            </span>
            <!--  Ingresar contraseña-->
             <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+        <br>
+           <!-- CONTRASEÑA -->
+     
+           <span class="input-item">
+            <i class='bx bx-key' ></i>
+           </span>
+           <!--  Ingresar contraseña-->
+            <input class="form-input" type="password" placeholder="Password" id="pwd"  name="Repeat your password" required>
            <!--Mostrar Ocultar contraseña  -->
            <span>
             <i class="fa fa-eye-slash" aria-hidden="true"></i>
            </span>     
           <br>
            <!-- BOTONES -->
-         <a href="pag.html"><button class="log-in"> Log In </a>
+         <button class="log-in"> Log In </button>
     </div>
    
         <!-- OTROS BOTONES -->
@@ -49,7 +65,7 @@
         <!--boton de contraseña olvidada-->
         <button class="btn submits frgt-pass">Forgot Password</button>
         <!--boton de registrarse-->
-        <a href="index2.html"><button class="btn submits sign-up">Sign Up </a>
+        <button class="btn submits sign-up">Sign Up 
         <i class='bx bx-user-plus' aria-hidden="true"></i>
         </button> 
     </div>
