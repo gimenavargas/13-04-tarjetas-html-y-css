@@ -4,13 +4,7 @@
     box-sizing: border-box;    
 }
 body {
-    background-image: linear-gradient(-225deg, #700ce2 0%, #ef75f3 100%);
-    background-image: linear-gradient(to top, #d392ec 0%, #c4e4c9 100%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: 'Vibur', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Abel', sans-serif;
-opacity: .95;
+    background-image:url("https://thumbs.dreamstime.com/z/fondo-hermoso-de-la-naturaleza-primavera-con-mariposa-flor-precioso-p%C3%A9talo-en-el-los-azules-turquesa-visi%C3%B3n-superior-marco-141119505.jpg")
 
 }
 
@@ -22,7 +16,7 @@ form {
     margin: 2% auto;
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
     padding: 2%;
-    background-image: linear-gradient(-225deg, #e3edfd 50%, #9fd6fa 50%);
+    background-image: linear-gradient(-225deg, #e3edfdab 50%, #9fd6fa81 50%);
 }
 form .con {
     display: -webkit-flex;

@@ -4,13 +4,7 @@
     box-sizing: border-box;    
 }
 body {
-    background-image: linear-gradient(-225deg, #700ce2 0%, #ef75f3 100%);
-    background-image: linear-gradient(to top, #d392ec 0%, #c4e4c9 100%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: 'Vibur', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Abel', sans-serif;
-opacity: .95;
+    background-image:url("https://thumbs.dreamstime.com/z/fondo-hermoso-de-la-naturaleza-primavera-con-mariposa-flor-precioso-p%C3%A9talo-en-el-los-azules-turquesa-visi%C3%B3n-superior-marco-141119505.jpg")
 
 }
 
@@ -22,7 +16,7 @@ form {
     margin: 2% auto;
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
     padding: 2%;
-    background-image: linear-gradient(-225deg, #e3edfd 50%, #9fd6fa 50%);
+    background-image: linear-gradient(-225deg, #96e4f793 50%, hsla(276, 40%, 57%, 0.575) 50%);
 }
 form .con {
     display: -webkit-flex;
@@ -72,27 +66,27 @@ input[class="form-input"]{
 button {
     display: inline-block;
     color: #252537;
-    width: 95px;
+    width: 100px;
     height: 50px;
     padding: 0 20px;
-    background: #b6dae0;
+    background: #67a6b1;
     border-radius: 5px;
     outline: none;
     border: none; 
     cursor: pointer;
     text-align: center;
-    transition: all 0.2s linear;
+    transition: all 2s linear;
     margin: 7% auto;
     letter-spacing: 0.05em;
 }
 .submits {
     width: 48%;
     display: inline-block;
-    float: left;
+    float:right;
     margin-left: 2%;
 }
-.frgt-pass {background:#7b9b95;}
-.sign-up {background: #B8F2E6;}
+.frgt-pass {background:#01130f;}
+.sign-up {background: #00110e;}
 button:hover {
     transform: translatey(3px);
     box-shadow: none;
